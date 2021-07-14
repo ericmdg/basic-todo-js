@@ -1,2 +1,2 @@
-# basic-todo-js
-Basic to do with JS
+# Basic to do with JS
+
