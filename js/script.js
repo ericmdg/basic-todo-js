@@ -11,5 +11,11 @@ function addTodo() {
     }
     var todoList = document.createElement('li')
     todoList.textContent = userInput
+    todoList.addEventListener('click', removeTodo)
     ulElement.appendChild(todoList)
+}
+
+function removeTodo(event) {
+    var clickedList = event.target
+    clickedList.parentNode.removeChild(clickedList)
 }
