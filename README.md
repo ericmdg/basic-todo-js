@@ -1,2 +1,2 @@
-# Basic to do with JS
+# Basic todo with JS
 
